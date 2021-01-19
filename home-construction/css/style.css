@@ -1,0 +1,1172 @@
+/* line 19, ../../Layouts/home-construction/src/sass/style.sass */
+.title {
+  font-size: 39px;
+  font-weight: 500;
+}
+
+/* line 22, ../../Layouts/home-construction/src/sass/style.sass */
+.title_orange {
+  color: #f7b446;
+}
+
+/* line 24, ../../Layouts/home-construction/src/sass/style.sass */
+.title_black {
+  color: #39374d;
+}
+
+/* line 26, ../../Layouts/home-construction/src/sass/style.sass */
+.subtitle {
+  color: #5e5d6c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* line 32, ../../Layouts/home-construction/src/sass/style.sass */
+.btn_white {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  background-color: #f7b446;
+  display: block;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 14px 0;
+  font-weight: 300;
+  border: 0;
+  outline: none !important;
+  background-color: white;
+  color: black;
+}
+
+/* line 37, ../../Layouts/home-construction/src/sass/style.sass */
+.btn_orange {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  background-color: #f7b446;
+  display: block;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 14px 0;
+  font-weight: 300;
+  border: 0;
+  outline: none !important;
+  background-color: #f7b446;
+  color: white;
+}
+
+/* line 43, ../../Layouts/home-construction/src/sass/style.sass */
+.squares {
+  margin: 10px 0 39px;
+  display: flex;
+}
+
+/* line 46, ../../Layouts/home-construction/src/sass/style.sass */
+.squares_item {
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  background-color: #f7b446;
+}
+
+/* line 51, ../../Layouts/home-construction/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 53, ../../Layouts/home-construction/src/sass/style.sass */
+.btn_orange {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  background-color: #f7b446;
+  display: block;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 14px 0;
+  font-weight: 300;
+  border: 0;
+  outline: none !important;
+}
+
+/* line 56, ../../Layouts/home-construction/src/sass/style.sass */
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+/* line 60, ../../Layouts/home-construction/src/sass/style.sass */
+.header_top a:hover {
+  color: #cbcbcb;
+}
+
+/* line 62, ../../Layouts/home-construction/src/sass/style.sass */
+.header_socials {
+  display: flex;
+}
+
+/* line 64, ../../Layouts/home-construction/src/sass/style.sass */
+.header_socials_link {
+  color: white;
+  border-left: 1px solid #425473;
+}
+
+/* line 67, ../../Layouts/home-construction/src/sass/style.sass */
+.header_socials_link i {
+  padding: 14px 22px;
+}
+
+/* line 69, ../../Layouts/home-construction/src/sass/style.sass */
+.header_socials_link:last-child {
+  border-right: 1px solid #425473;
+}
+
+/* line 71, ../../Layouts/home-construction/src/sass/style.sass */
+.header_line {
+  background-color: #425473;
+  width: 100%;
+  height: 1px;
+}
+
+/* line 75, ../../Layouts/home-construction/src/sass/style.sass */
+.header_info {
+  display: flex;
+  height: 100%;
+}
+
+/* line 78, ../../Layouts/home-construction/src/sass/style.sass */
+.header_info_link {
+  color: white;
+  border-left: 1px solid #425473;
+}
+
+/* line 81, ../../Layouts/home-construction/src/sass/style.sass */
+.header_info_link span {
+  display: block;
+  padding: 11px 22px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 86, ../../Layouts/home-construction/src/sass/style.sass */
+.header_info_link:last-child {
+  color: #f7b446;
+}
+
+/* line 88, ../../Layouts/home-construction/src/sass/style.sass */
+.header_info_link:last-child:hover {
+  color: #e29b28 !important;
+}
+
+/* line 90, ../../Layouts/home-construction/src/sass/style.sass */
+.header_main {
+  padding: 19px 0;
+}
+
+/* line 93, ../../Layouts/home-construction/src/sass/style.sass */
+.header_main .header_logo_img {
+  margin-right: 10px;
+}
+
+/* line 95, ../../Layouts/home-construction/src/sass/style.sass */
+.header nav {
+  position: relative;
+  height: 100%;
+}
+
+/* line 98, ../../Layouts/home-construction/src/sass/style.sass */
+.header nav .header_menu {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+/* line 109, ../../Layouts/home-construction/src/sass/style.sass */
+.header nav .header_menu_item {
+  margin-right: 25px;
+}
+
+/* line 111, ../../Layouts/home-construction/src/sass/style.sass */
+.header nav .header_menu_item a {
+  color: white;
+}
+
+/* line 113, ../../Layouts/home-construction/src/sass/style.sass */
+.header nav .header_menu_item:first-child:after {
+  content: url("../icons/caret.svg");
+  display: inline-block;
+  color: white;
+  margin-left: 7px;
+  margin-bottom: 3px;
+}
+
+/* line 119, ../../Layouts/home-construction/src/sass/style.sass */
+.header_panel {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 122, ../../Layouts/home-construction/src/sass/style.sass */
+.header_panel_cart, .header_panel_search {
+  margin-right: 29px;
+  align-self: center;
+  cursor: pointer;
+}
+
+/* line 126, ../../Layouts/home-construction/src/sass/style.sass */
+.header_panel_cart {
+  position: relative;
+}
+
+/* line 128, ../../Layouts/home-construction/src/sass/style.sass */
+.header_panel_cart_counter {
+  width: 20px;
+  height: 20px;
+  background-color: #28c23e;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 100%;
+  color: white;
+  position: absolute;
+  top: -7px;
+  left: 5px;
+  font-size: 12px;
+}
+
+/* line 140, ../../Layouts/home-construction/src/sass/style.sass */
+.header_panel_btn {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  background-color: #f7b446;
+  display: block;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 14px 0;
+  font-weight: 300;
+  border: 0;
+  outline: none !important;
+  border: 1px solid white;
+  background: none;
+}
+
+/* line 145, ../../Layouts/home-construction/src/sass/style.sass */
+.innovation {
+  min-height: 1080px;
+  background: url("../img/bg_header.jpg") center center/cover no-repeat;
+  padding-top: 355px;
+}
+
+/* line 149, ../../Layouts/home-construction/src/sass/style.sass */
+.innovation_title {
+  font-size: 85px;
+  text-align: center;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 90px;
+}
+
+/* line 155, ../../Layouts/home-construction/src/sass/style.sass */
+.innovation_title span {
+  color: #f7b446;
+  border-bottom: 3px solid #f7b446;
+}
+
+/* line 158, ../../Layouts/home-construction/src/sass/style.sass */
+.innovation_subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+  color: white;
+  width: 711px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+/* line 166, ../../Layouts/home-construction/src/sass/style.sass */
+.innovation_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 169, ../../Layouts/home-construction/src/sass/style.sass */
+.innovation_buttons .btn_orange {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  background-color: #f7b446;
+  display: block;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 14px 0;
+  font-weight: 300;
+  border: 0;
+  outline: none !important;
+  margin-right: 9px;
+}
+
+/* line 172, ../../Layouts/home-construction/src/sass/style.sass */
+.innovation_discover {
+  margin: 235px 0 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 178, ../../Layouts/home-construction/src/sass/style.sass */
+.innovation_divide {
+  width: 1px;
+  height: 120px;
+  background-color: #f7b446;
+  margin: auto;
+}
+
+/* line 184, ../../Layouts/home-construction/src/sass/style.sass */
+.offering {
+  position: relative;
+  padding: 100px 0;
+  min-height: 650px;
+}
+
+/* line 188, ../../Layouts/home-construction/src/sass/style.sass */
+.offering .offering_about_us {
+  display: block;
+  position: absolute;
+  width: 47%;
+  top: 50px;
+  left: 50px;
+}
+
+/* line 194, ../../Layouts/home-construction/src/sass/style.sass */
+.offering .dots {
+  display: block;
+  position: absolute;
+  top: -60px;
+  right: -100px;
+}
+
+/* line 199, ../../Layouts/home-construction/src/sass/style.sass */
+.offering_inner {
+  padding: 50px 70px 23px 0;
+}
+
+/* line 201, ../../Layouts/home-construction/src/sass/style.sass */
+.offering .title {
+  line-height: 50px;
+}
+
+/* line 203, ../../Layouts/home-construction/src/sass/style.sass */
+.offering .subtitle {
+  margin-bottom: 44px;
+}
+
+/* line 205, ../../Layouts/home-construction/src/sass/style.sass */
+.offering_play_block {
+  height: 100%;
+  position: relative;
+}
+
+/* line 208, ../../Layouts/home-construction/src/sass/style.sass */
+.offering_play_block_bg {
+  width: 100%;
+  border-radius: 3px;
+  filter: brightness(65%) contrast(110%);
+}
+
+/* line 212, ../../Layouts/home-construction/src/sass/style.sass */
+.offering_play {
+  background-color: #f7b446;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 100%;
+  cursor: pointer;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  box-shadow: 0 0 0 8px #f7b44685;
+}
+
+/* line 227, ../../Layouts/home-construction/src/sass/style.sass */
+.team {
+  min-height: 430px;
+  padding-top: 100px;
+  background-color: #f7f9fa;
+  position: relative;
+}
+
+/* line 232, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item {
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+  background: white;
+  cursor: pointer;
+  transition: .2s all;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* line 241, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item_wrap {
+  padding: 39px 54px 45px 34px;
+}
+
+/* line 243, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item img {
+  filter: brightness(60%) contrast(110%);
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: .35s all;
+}
+
+/* line 251, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item:hover .team_item_bg {
+  opacity: 1;
+}
+
+/* line 255, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item_title {
+  font-size: 28px;
+  font-weight: 500;
+  color: #39374d;
+  transition: .5s all;
+}
+
+/* line 260, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item_subtitle {
+  color: #5e5d6c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 23px 0 36px;
+  transition: .5s all;
+}
+
+/* line 267, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item_learn_more {
+  display: inline-block;
+  color: #777777;
+  font-size: 18px;
+  font-weight: 500;
+  transition: .5s all;
+}
+
+/* line 273, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item_line {
+  width: 20px;
+  background-color: #777777;
+  height: 2px;
+  transition: .5s all;
+}
+
+/* line 278, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item:hover {
+  transform: translateY(-10px);
+  border: none;
+  border-bottom: 11px solid #f7f9fa;
+}
+
+/* line 282, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item:hover .team_item_title,
+.team_item:hover .team_item_subtitle {
+  color: white;
+}
+
+/* line 285, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item:hover .team_item_learn_more {
+  color: #f7b446;
+}
+
+/* line 287, ../../Layouts/home-construction/src/sass/style.sass */
+.team_item:hover .team_item_line {
+  background-color: #f7b446;
+  width: 100%;
+}
+
+/* line 291, ../../Layouts/home-construction/src/sass/style.sass */
+.services {
+  position: relative;
+  padding: 99px 0 70px;
+}
+
+/* line 293, ../../Layouts/home-construction/src/sass/style.sass */
+.services_our_services {
+  display: block;
+  position: absolute;
+  top: 49px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* line 301, ../../Layouts/home-construction/src/sass/style.sass */
+.services .squares {
+  justify-content: center;
+}
+
+/* line 303, ../../Layouts/home-construction/src/sass/style.sass */
+.services .title {
+  text-align: center;
+}
+
+/* line 305, ../../Layouts/home-construction/src/sass/style.sass */
+.services .subtitle {
+  width: 718px;
+  margin: auto;
+  text-align: center;
+}
+
+/* line 309, ../../Layouts/home-construction/src/sass/style.sass */
+.services .row {
+  margin-top: 88px;
+  margin-bottom: 67px;
+  min-height: 465px;
+  align-items: center;
+}
+
+/* line 314, ../../Layouts/home-construction/src/sass/style.sass */
+.services_item {
+  width: 370px;
+  border-radius: 5px;
+  border-bottom: 1px solid #e7e7e7;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  bottom: 0;
+  transition: .2s all;
+}
+
+/* line 323, ../../Layouts/home-construction/src/sass/style.sass */
+.services_item_wrapper {
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  background-color: white;
+}
+
+/* line 327, ../../Layouts/home-construction/src/sass/style.sass */
+.services_item:hover {
+  border-bottom: 5px solid #f7b446;
+  transform: translateY(-5px);
+}
+
+/* line 330, ../../Layouts/home-construction/src/sass/style.sass */
+.services_item:hover .services_item_arrow {
+  color: #f7b446;
+}
+
+/* line 332, ../../Layouts/home-construction/src/sass/style.sass */
+.services_item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+}
+
+/* line 336, ../../Layouts/home-construction/src/sass/style.sass */
+.services_item_title {
+  margin: 0 0 24px;
+  color: #39374d;
+  padding: 30px 35px 0;
+}
+
+/* line 340, ../../Layouts/home-construction/src/sass/style.sass */
+.services_item_subtitle {
+  color: #748494;
+  padding: 0 35px;
+  margin-bottom: 35px;
+}
+
+/* line 344, ../../Layouts/home-construction/src/sass/style.sass */
+.services_item_arrow {
+  padding-bottom: 34px;
+  text-align: end;
+  font-size: 25px;
+  padding-right: 35px;
+}
+
+/* line 349, ../../Layouts/home-construction/src/sass/style.sass */
+.services .btn_orange {
+  display: block;
+  margin: auto;
+}
+
+/* line 352, ../../Layouts/home-construction/src/sass/style.sass */
+.services .dots {
+  position: absolute;
+  bottom: 120px;
+  left: 15%;
+  z-index: -1;
+}
+
+/* line 357, ../../Layouts/home-construction/src/sass/style.sass */
+.company {
+  position: relative;
+  padding-top: 100px;
+  min-height: 710px;
+  background: url("../img/bg_company.jpg") center center/cover no-repeat;
+  text-align: center;
+  color: white;
+}
+
+/* line 364, ../../Layouts/home-construction/src/sass/style.sass */
+.company_title {
+  margin: 36px 0 30px;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+/* line 368, ../../Layouts/home-construction/src/sass/style.sass */
+.company_subtitle {
+  font-size: 22px;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+/* line 372, ../../Layouts/home-construction/src/sass/style.sass */
+.company_descr {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+/* line 376, ../../Layouts/home-construction/src/sass/style.sass */
+.company_orange_block {
+  background: url("../img/orange_bg.svg") center center/cover no-repeat;
+  padding: 70px 0;
+  position: relative;
+  bottom: -86px;
+  z-index: 1;
+}
+
+/* line 382, ../../Layouts/home-construction/src/sass/style.sass */
+.company_orange_block div {
+  color: white;
+  font-weight: 300;
+  font-size: 46px;
+  line-height: 62px;
+  margin: 0 auto 38px;
+  width: 673px;
+}
+
+/* line 389, ../../Layouts/home-construction/src/sass/style.sass */
+.company_orange_block span {
+  font-weight: 500;
+}
+
+/* line 391, ../../Layouts/home-construction/src/sass/style.sass */
+.company_orange_block .btn_white {
+  margin: auto;
+  display: block;
+}
+
+/* line 394, ../../Layouts/home-construction/src/sass/style.sass */
+.work {
+  min-height: 1050px;
+  padding: 91px 0 100px;
+  position: relative;
+  background-color: #fefeff;
+}
+
+/* line 399, ../../Layouts/home-construction/src/sass/style.sass */
+.work .row {
+  margin-bottom: 99px;
+}
+
+/* line 401, ../../Layouts/home-construction/src/sass/style.sass */
+.work_our_work {
+  position: absolute;
+  left: 63px;
+  width: 50%;
+}
+
+/* line 405, ../../Layouts/home-construction/src/sass/style.sass */
+.work .title {
+  line-height: 52px;
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 410, ../../Layouts/home-construction/src/sass/style.sass */
+.work .btn_orange {
+  transform: translateY(50%);
+  align-self: flex-end;
+  padding: 0;
+  transition: .2s all;
+  border: 2px solid #f7b446;
+  background-color: white;
+  color: #f7b446;
+}
+
+/* line 418, ../../Layouts/home-construction/src/sass/style.sass */
+.work .btn_orange:hover {
+  color: white;
+  background-color: #f7b446;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+/* line 423, ../../Layouts/home-construction/src/sass/style.sass */
+.work_item {
+  width: 550px;
+  height: 450px;
+  cursor: pointer;
+}
+
+/* line 427, ../../Layouts/home-construction/src/sass/style.sass */
+.work_item:hover .work_item_btn {
+  color: #f7b446;
+  transform: translateY(-75px);
+}
+
+/* line 430, ../../Layouts/home-construction/src/sass/style.sass */
+.work_item img {
+  width: 100%;
+  height: 410px;
+  border-radius: 4px;
+}
+
+/* line 434, ../../Layouts/home-construction/src/sass/style.sass */
+.work_item_btn {
+  width: 470px;
+  height: 100px;
+  padding: 25px 35px 0 34px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5px;
+  transition: .4s all;
+  box-shadow: 0 10px 90px rgba(110, 123, 131, 0.1);
+}
+
+/* line 447, ../../Layouts/home-construction/src/sass/style.sass */
+.work_item_btn div:first-child {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* line 450, ../../Layouts/home-construction/src/sass/style.sass */
+.work_item_btn div:last-child {
+  text-align: end;
+}
+
+/* line 453, ../../Layouts/home-construction/src/sass/style.sass */
+.work_icons img:not(:last-child) {
+  margin-right: 75px;
+  margin-bottom: 15px;
+}
+
+/* line 456, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials {
+  background-color: #f7f9fa;
+  padding-top: 38px;
+  min-height: 652px;
+  position: relative;
+}
+
+/* line 461, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials .row {
+  transform: translateY(100px);
+}
+
+/* line 463, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials_bg {
+  display: block;
+  position: absolute;
+  left: 20px;
+  width: 95%;
+  z-index: -1;
+}
+
+/* line 469, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials .title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* line 472, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials .squares {
+  justify-content: center;
+}
+
+/* line 474, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials .subtitle {
+  text-align: center;
+  width: 718px;
+  margin: auto;
+}
+
+/* line 478, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials_item {
+  box-shadow: 0 5px 90px rgba(110, 123, 131, 0.1);
+  padding: 34px 54px 50px 36px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* line 483, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials_item_quotes {
+  margin-bottom: 29px;
+}
+
+/* line 485, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials_item_descr {
+  color: #5e5d6c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 37px;
+}
+
+/* line 491, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials_item_user {
+  display: flex;
+}
+
+/* line 493, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials_item_user > div {
+  align-self: center;
+}
+
+/* line 495, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials_item_user img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 100%;
+}
+
+/* line 500, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials_item_user_name {
+  color: #39374d;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+
+/* line 505, ../../Layouts/home-construction/src/sass/style.sass */
+.testimonials_item_stars {
+  color: #f6a46a;
+}
+
+/* line 507, ../../Layouts/home-construction/src/sass/style.sass */
+.building {
+  display: block;
+  position: relative;
+  padding: 250px 0 277px;
+}
+
+/* line 512, ../../Layouts/home-construction/src/sass/style.sass */
+.building_long div {
+  position: relative;
+}
+
+/* line 514, ../../Layouts/home-construction/src/sass/style.sass */
+.building_long div img:first-child {
+  position: absolute;
+  z-index: -1;
+  top: -48px;
+  left: -95px;
+}
+
+/* line 519, ../../Layouts/home-construction/src/sass/style.sass */
+.building_long div img:last-child {
+  filter: brightness(90%);
+  width: 100%;
+  height: 570px;
+  border-radius: 4px;
+}
+
+/* line 524, ../../Layouts/home-construction/src/sass/style.sass */
+.building_wide {
+  padding: 50px 0 0 32px;
+  border-radius: 5px;
+}
+
+/* line 527, ../../Layouts/home-construction/src/sass/style.sass */
+.building_wide .title {
+  margin-bottom: 40px;
+}
+
+/* line 529, ../../Layouts/home-construction/src/sass/style.sass */
+.building_wide_question {
+  border-radius: 5px;
+  border: 1px solid #c5e0f8;
+  padding: 23px 0 20px 30px;
+  font-size: 18px;
+  color: #39374d;
+  font-weight: 500;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: .2s all;
+}
+
+/* line 540, ../../Layouts/home-construction/src/sass/style.sass */
+.building_wide_question:hover {
+  background: #f7b446;
+  color: white;
+  border: 1px solid #f7b446;
+}
+
+/* line 544, ../../Layouts/home-construction/src/sass/style.sass */
+.building_orange_block {
+  background: #f7b446;
+  max-width: 770px;
+  border-radius: 8px;
+  width: 100%;
+  margin: auto;
+  padding: 60px 0 50px 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -86px;
+  z-index: 1;
+}
+
+/* line 556, ../../Layouts/home-construction/src/sass/style.sass */
+.building_orange_block img:first-child {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+/* line 563, ../../Layouts/home-construction/src/sass/style.sass */
+.building_orange_block_title {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* line 568, ../../Layouts/home-construction/src/sass/style.sass */
+.building_orange_block_subtitle {
+  margin-bottom: 56px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 574, ../../Layouts/home-construction/src/sass/style.sass */
+.building_orange_block_form {
+  max-width: 570px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+/* line 579, ../../Layouts/home-construction/src/sass/style.sass */
+.building_orange_block_form input {
+  display: block;
+  padding-left: 30px;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  box-shadow: 0 10px 20px rgba(110, 123, 131, 0.1);
+  width: 100%;
+}
+
+/* line 588, ../../Layouts/home-construction/src/sass/style.sass */
+.building_orange_block_form input ::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 591, ../../Layouts/home-construction/src/sass/style.sass */
+.building_orange_block_form_btn {
+  display: block;
+  position: absolute;
+  line-height: 40px;
+  right: 5px;
+  top: 5px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #7540ee;
+  border: none;
+  outline: none !important;
+  color: white;
+}
+
+/* line 604, ../../Layouts/home-construction/src/sass/style.sass */
+.building_orange_block_dots {
+  display: block;
+  position: absolute;
+  right: -55px;
+  bottom: -95px;
+}
+
+/* line 609, ../../Layouts/home-construction/src/sass/style.sass */
+.footer {
+  min-height: 557px;
+  background-color: #f5fbfc;
+  padding: 200px 0 23px;
+}
+
+/* line 613, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_socials {
+  max-width: 280px;
+}
+
+/* line 615, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_socials_descr {
+  margin: 45px 0 44px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #5e5d6c;
+}
+
+/* line 621, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_socials_icons {
+  display: flex;
+}
+
+/* line 623, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_socials_icons a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 15px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #c4c4c4;
+  color: #c4c4c4;
+  transition: .2s all;
+}
+
+/* line 635, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_socials_icons a:hover {
+  color: white;
+  border: 1px solid #f7b446;
+  background-color: #f7b446;
+}
+
+/* line 640, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_menu_item {
+  margin-top: 20px;
+}
+
+/* line 641, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_menu_item a {
+  transition: 90ms all;
+}
+
+/* line 644, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_menu_item:first-child {
+  margin-bottom: 25px;
+}
+
+/* line 646, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_menu_item:first-child a {
+  text-decoration: none;
+  color: #39374d;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* line 651, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_menu_item:first-child a:hover {
+  color: #f7b446;
+  border-bottom: 2px solid #f7b446;
+}
+
+/* line 655, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_menu_item:not(:first-child) a {
+  text-decoration: none;
+  color: #39374d;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 660, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_menu_item:not(:first-child) a:hover {
+  color: #f7b446;
+  border-bottom: 2px solid #f7b446;
+}
+
+/* line 664, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_last_menu_item:last-child a {
+  color: #f7b446;
+}
+
+/* line 666, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_last_menu_item:not(:first-child) {
+  margin-top: 0;
+}
+
+/* line 668, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_separator {
+  width: 100%;
+  margin-top: 76px;
+  margin-bottom: 21px;
+  height: 1px;
+  background: #e2e7ea;
+}
+
+/* line 674, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_bottom_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 677, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_bottom_info div {
+  color: #5e5d6c;
+}
+
+/* line 679, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_bottom_info div:first-child {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 682, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_bottom_info div:last-child {
+  font-size: 13px;
+}
+
+/* line 685, ../../Layouts/home-construction/src/sass/style.sass */
+.footer_bottom_info div:last-child span:first-child:after {
+  content: "|";
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+/*# sourceMappingURL=style.css.map */
